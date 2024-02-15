@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ru.netology.geo.GeoServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.112 s <<< FAILURE! - in ru.netology.geo.GeoServiceImplTest
+ru.netology.geo.GeoServiceImplTest.byIp(String, Location)  Time elapsed: 0.059 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [java.lang.String arg0] in method [void ru.netology.geo.GeoServiceImplTest.byIp(java.lang.String,ru.netology.entity.Location)].
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
